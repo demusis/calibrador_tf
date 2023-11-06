@@ -1,5 +1,4 @@
-# LED Frame Rate Checker para Fotogrametria
-
+# LED Frame Rate Checker
 ## Descrição
 Esta aplicação foi desenvolvida para facilitar a verificação da adequação da taxa de frames de vídeos utilizados em análises fotogramétricas. O script utiliza um Raspberry Pi Pico para alternar o estado de dois LEDs em intervalos regulares e registra o tempo de cada alternância em um arquivo CSV. Este arquivo pode ser usado para verificar a consistência e precisão da taxa de frames de uma câmera de vídeo, comparando os registros de tempo com os frames capturados.
 
