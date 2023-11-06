@@ -3,7 +3,7 @@
 
 # Importando as classes necessárias das bibliotecas de hardware e tempo
 from machine import Pin, Timer
-import utime
+import utime, os
 
 # Configuração dos LEDs
 led_17 = Pin(17, Pin.OUT)  # Cria um objeto Pin para controlar um LED no pino 17
