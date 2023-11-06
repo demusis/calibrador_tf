@@ -42,14 +42,7 @@ def escreve_csv(filename, data):
                 f.write('{}\n'.format(m_tempo))  # Escreve cada tempo registrado
             
             f.flush()  # Garante que todos os dados sejam escritos no arquivo
-
-        # Após fechar o arquivo, verifica se o arquivo contém dados
-        if filename in os.listdir():
-            with open(filename, 'r') as f:
-                if f.read():
-                    print('Arquivo gravado com sucesso.')
-                    return True
-        return False
+        return True
     except Exception as e:
         print('Falha ao gravar arquivo:', e)
         led_14.value(0)  # Desliga o LED do pino 14 em caso de falha
