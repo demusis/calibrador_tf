@@ -28,3 +28,5 @@ Carregue o script para o Raspberry Pi Pico utilizando a IDE Thonny ou uma ferram
 
 ### Exemplo de Uso
 Imagine que você precisa verificar se uma câmera grava a 30 frames por segundo com precisão. Você configuraria o script para alternar os LEDs a cada 33 milissegundos e gravaria os LEDs em ação com a câmera. Depois, utilizando um software de edição de vídeo, você pode sobrepor os tempos registrados no arquivo CSV com os frames capturados para assegurar que cada frame corresponde a uma alternância de LED.
+
+![Aparato com Raspberry Pi Pico e LEDs](https://github.com/demusis/calibrador_tf/blob/main/prototipo.jpg)
