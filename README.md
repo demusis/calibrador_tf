@@ -3,7 +3,7 @@
 Esta aplicação foi desenvolvida para facilitar a verificação da adequação da taxa de frames de vídeos utilizados em análises fotogramétricas. O script utiliza um Raspberry Pi Pico para alternar o estado de dois LEDs em intervalos regulares e registra o tempo de cada alternância em um arquivo CSV. Este arquivo pode ser usado para verificar a consistência e precisão da taxa de frames de uma câmera de vídeo, comparando os registros de tempo com os frames capturados.
 
 ## Características
-- **Alternância Automática de LEDs**: Os LEDs são alternados a cada 33 milissegundos com precisão temporal, utilizando um timer programável.
+- **Alternância Automática de LEDs**: Os LEDs são alternados a cada 10 s, utilizando um timer programável.
 - **Registro de Tempo**: Cada alternação dos LEDs é registrada com o horário preciso em milissegundos.
 - **Saída de Dados em CSV**: Os tempos são gravados em um arquivo CSV para análise subsequente.
 - **Feedback de Sucesso de Escrita**: O script verifica e informa se os dados foram gravados com sucesso no arquivo CSV.
