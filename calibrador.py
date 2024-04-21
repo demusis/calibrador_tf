@@ -1,5 +1,5 @@
 # Calibrador de taxa de frames
-# Autor: Carlo Ralph De Musis
+# Autor: Carlo Ralph De Musis 
 
 # Importando as classes necessárias das bibliotecas de hardware e tempo
 from machine import Pin, Timer
